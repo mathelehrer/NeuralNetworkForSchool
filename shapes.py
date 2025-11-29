@@ -1,8 +1,12 @@
+import pickle
 import random
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from matplotlib import pyplot as plt
+
+import mnist_loader
+import network
 
 pi = np.pi
 
@@ -70,27 +74,67 @@ def cross_product(o, a, b):
     """Cross product of vectors OA and OB. A positive cross product indicates a counter-clockwise turn."""
     return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
 
+def create_training_data(n=1000):
+    """
+    convert n random convex polygons into a pkl binary file
+    for each entry the image data is stored in a list with 784 entries and a label (3,4,5)
+    indicating the vertices of the polygon
+    :param n: number of polygons to generate"""
+
+
+    vertices=[random.randrange(3,6) for _ in range(n)]
+    vertices_data = [[0]*3 for _ in range(n)]
+    for i,v in enumerate(vertices):
+        vertices_data[i][v-3]=1
+    return[(np.array([[float(i/255)] for i in generate_convex_polygon_image(v).reshape(784)]),[[_] for _ in c]) for v,c,data in zip(vertices,vertices_data,range(n))]
+
+def create_test_data(n=1000):
+    """
+    convert n random convex polygons into a pkl binary file
+    for each entry the image data is stored in a list with 784 entries and a label (3,4,5)
+    indicating the vertices of the polygon
+    :param n: number of polygons to generate"""
+
+
+    vertices=[random.randrange(3,6) for _ in range(n)]
+    return[(np.array([[float(i/255)] for i in generate_convex_polygon_image(v).reshape(784)]),v-3) for v,data in zip(vertices,range(n))]
 
 if __name__ == '__main__':
-    img = generate_convex_polygon_image(10)
-    for x in range(len(img)):
-        for y in range(len(img[0])):
-            if img[x][y]<10:
-                print("  ",end="")
-            elif img[x][y]<50:
-                print("..",end="")
-            elif img[x][y]<50:
-                print("..",end="")
-            elif img[x][y]<100:
-                print("oo",end="")
-            elif img[x][y]<150:
-                print("xx",end="")
-            elif img[x][y]<200:
-                print("AO",end="")
-            else:
-                print( "XX",end="")
-        print()
+    # img = generate_convex_polygon_image(4)
+    # for x in range(len(img)):
+    #     for y in range(len(img[0])):
+    #         if img[x][y]<10:
+    #             print("  ",end="")
+    #         elif img[x][y]<50:
+    #             print("..",end="")
+    #         elif img[x][y]<100:
+    #             print("oo",end="")
+    #         elif img[x][y]<150:
+    #             print("xx",end="")
+    #         elif img[x][y]<200:
+    #             print("AO",end="")
+    #         else:
+    #             print( "XX",end="")
+    #     print()
+    #
+    #
+    # imgplot = plt.imshow(img)
+    # plt.show()
+    # data = create_data(2)
+    # for d in data:
+    #     print(d)
+    # create_data(100)
 
+    test_data = create_test_data(10000)
+    net = network.Network([784,30,3])
+    print(net.evaluate(test_data))
 
-    imgplot = plt.imshow(img)
-    plt.show()
+    # net.SGD(test_data,30,10,3.0,test_data)
+    #
+    # training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
+    #
+    # test_data = list(test_data)
+    # training_data=list(training_data)
+    # print(test_data[0])
+    # net = network.Network([784,30,10])
+    # print(net.evaluate(test_data))
