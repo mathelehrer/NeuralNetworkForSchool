@@ -24,8 +24,9 @@ def generate_convex_polygon_image(n):
 
 
 
-    points = [(int(random.randrange(10, 14) * fluc() * np.cos(2 * pi / n * i)) , int(
-        random.randrange(4, 12) * fluc() * np.sin(2 * pi / n * i)) ) for i in range(n)]
+    points = [(random.randrange(10, 14) * fluc() * np.cos(2 * pi / n * i) ,
+        random.randrange(4, 12) * fluc() * np.sin(2 * pi / n * i) ) for i in range(n)]
+
 
     # rotate points around random angle
     angle = random.random()*2*pi
@@ -66,7 +67,7 @@ def generate_convex_polygon_image(n):
         draw.polygon(hull, fill=255)
 
     # blur edges with a Gaussian filter
-    img = img.filter(ImageFilter.GaussianBlur(radius=1))
+    img = img.filter(ImageFilter.GaussianBlur(radius=0))
     return np.array(img)
 
 
@@ -100,34 +101,34 @@ def create_test_data(n=1000):
     return[(np.array([[float(i/255)] for i in generate_convex_polygon_image(v).reshape(784)]),v-3) for v,data in zip(vertices,range(n))]
 
 if __name__ == '__main__':
-    # img = generate_convex_polygon_image(4)
-    # for x in range(len(img)):
-    #     for y in range(len(img[0])):
-    #         if img[x][y]<10:
-    #             print("  ",end="")
-    #         elif img[x][y]<50:
-    #             print("..",end="")
-    #         elif img[x][y]<100:
-    #             print("oo",end="")
-    #         elif img[x][y]<150:
-    #             print("xx",end="")
-    #         elif img[x][y]<200:
-    #             print("AO",end="")
-    #         else:
-    #             print( "XX",end="")
-    #     print()
-    #
-    #
-    # imgplot = plt.imshow(img)
-    # plt.show()
+    img = generate_convex_polygon_image(3)
+    for x in range(len(img)):
+        for y in range(len(img[0])):
+            if img[x][y]<10:
+                print("  ",end="")
+            elif img[x][y]<50:
+                print("..",end="")
+            elif img[x][y]<100:
+                print("oo",end="")
+            elif img[x][y]<150:
+                print("xx",end="")
+            elif img[x][y]<200:
+                print("AO",end="")
+            else:
+                print( "XX",end="")
+        print()
+
+
+    imgplot = plt.imshow(img)
+    plt.show()
     # data = create_data(2)
     # for d in data:
     #     print(d)
     # create_data(100)
 
-    test_data = create_test_data(10000)
-    net = network.Network([784,30,3])
-    print(net.evaluate(test_data))
+    # test_data = create_test_data(10000)
+    # net = network.Network([784,30,3])
+    # print(net.evaluate(test_data))
 
     # net.SGD(test_data,30,10,3.0,test_data)
     #

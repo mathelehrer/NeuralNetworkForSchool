@@ -1,0 +1,2248 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     99308,       2238]
+NotebookOptionsPosition[     97568,       2200]
+NotebookOutlinePosition[     97904,       2215]
+CellTagsIndexPosition[     97861,       2212]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"res", "=", 
+  RowBox[{
+  "ResourceObject", "[", "\"\<f70072ed-f6d7-475b-aa83-97153c4551c7\>\"", 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.7313492261320963`*^9, 3.731349227344562*^9}},
+ CellLabel->
+  "In[118]:=",ExpressionUUID->"414093a1-0ccf-4313-9791-7e1277406eb2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ResourceObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.011111111111111112`], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{3.789, 
+                 7.266}, {86.20700000000001, 7.266}, {86.20700000000001, 
+                 3.266}, {3.789, 3.266}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{14.129,
+                  54.07}, {19.878999999999998`, 54.07}, {19.878999999999998`, 
+                 15.57}, {14.129, 15.57}}}]}, 
+               FaceForm[
+                RGBColor[0.648987, 0.648987, 0.648987, 1.]], StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{24.129,
+                  41.82}, {29.879, 41.82}, {29.879, 15.57}, {24.129, 
+                 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 33.160000000000004`, 54.07}, {38.910000000000004`, 54.07}, {
+                 38.910000000000004`, 15.57}, {33.160000000000004`, 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{42.191,
+                  31.781}, {47.941, 31.781}, {47.941, 15.569999999999997`}, {
+                 42.191, 15.569999999999997`}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 51.223000000000006`, 46.875}, {56.973000000000006`, 
+                 46.875}, {56.973000000000006`, 15.57}, {51.223000000000006`, 
+                 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{60.254,
+                  37.707}, {66.00399999999999, 37.707}, {66.00399999999999, 
+                 15.569999999999997`}, {60.254, 15.569999999999997`}}}]}, 
+               FaceForm[
+                RGBColor[0.274612, 0.618881, 0.810913, 1.]], StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 70.12899999999999, 54.07}, {75.87899999999999, 54.07}, {
+                 75.87899999999999, 15.57}, {70.12899999999999, 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 9.879000000000001, 60.547}, {24.129, 60.547}, {24.129, 
+                 56.547}, {9.879000000000001, 56.547}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9.871, 
+                 13.097999999999999`}, {80.121, 13.097999999999999`}, {80.121,
+                  9.097999999999999}, {9.871, 9.097999999999999}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 65.87899999999999, 60.547}, {80.12899999999999, 60.547}, {
+                 80.12899999999999, 56.547}, {65.87899999999999, 56.547}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                  0}, {0, 1, 0}, {0, 1, 0}}}, {{{11.469000000000001`, 
+                  66.54700000000001}, {45., 82.418}, {78.398, 
+                  66.54700000000001}}, {{45., 86.73400000000001}, {
+                  2.2230000000000003`, 66.54700000000001}, {
+                  2.2230000000000003`, 62.547}, {87.777, 62.547}, {87.777, 
+                  66.54700000000001}}}]}, 
+               FaceForm[
+                RGBColor[0.648987, 0.648987, 0.648987, 1.]], StripOnInput -> 
+               False]}, AspectRatio -> 1, Axes -> False, Background -> None, 
+             Frame -> None, FrameTicks -> None, ImageSize -> {Automatic, 
+               Dynamic[
+               3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TemplateBox[{"\"The Odyssey - Greek\"", "\" \"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/The-Odyssey---Greek"}, "HyperlinkURL"]}, "RowDefault"], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"DataResource\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"The Odyssey, by Homer\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              Evaluator -> Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.011111111111111112`], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{3.789, 
+                 7.266}, {86.20700000000001, 7.266}, {86.20700000000001, 
+                 3.266}, {3.789, 3.266}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{14.129,
+                  54.07}, {19.878999999999998`, 54.07}, {19.878999999999998`, 
+                 15.57}, {14.129, 15.57}}}]}, 
+               FaceForm[
+                RGBColor[0.648987, 0.648987, 0.648987, 1.]], StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{24.129,
+                  41.82}, {29.879, 41.82}, {29.879, 15.57}, {24.129, 
+                 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 33.160000000000004`, 54.07}, {38.910000000000004`, 54.07}, {
+                 38.910000000000004`, 15.57}, {33.160000000000004`, 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{42.191,
+                  31.781}, {47.941, 31.781}, {47.941, 15.569999999999997`}, {
+                 42.191, 15.569999999999997`}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 51.223000000000006`, 46.875}, {56.973000000000006`, 
+                 46.875}, {56.973000000000006`, 15.57}, {51.223000000000006`, 
+                 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{60.254,
+                  37.707}, {66.00399999999999, 37.707}, {66.00399999999999, 
+                 15.569999999999997`}, {60.254, 15.569999999999997`}}}]}, 
+               FaceForm[
+                RGBColor[0.274612, 0.618881, 0.810913, 1.]], StripOnInput -> 
+               False], 
+              StyleBox[{
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 70.12899999999999, 54.07}, {75.87899999999999, 54.07}, {
+                 75.87899999999999, 15.57}, {70.12899999999999, 15.57}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 9.879000000000001, 60.547}, {24.129, 60.547}, {24.129, 
+                 56.547}, {9.879000000000001, 56.547}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9.871, 
+                 13.097999999999999`}, {80.121, 13.097999999999999`}, {80.121,
+                  9.097999999999999}, {9.871, 9.097999999999999}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                 65.87899999999999, 60.547}, {80.12899999999999, 60.547}, {
+                 80.12899999999999, 56.547}, {65.87899999999999, 56.547}}}], 
+                
+                FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                  0}, {0, 1, 0}, {0, 1, 0}}}, {{{11.469000000000001`, 
+                  66.54700000000001}, {45., 82.418}, {78.398, 
+                  66.54700000000001}}, {{45., 86.73400000000001}, {
+                  2.2230000000000003`, 66.54700000000001}, {
+                  2.2230000000000003`, 62.547}, {87.777, 62.547}, {87.777, 
+                  66.54700000000001}}}]}, 
+               FaceForm[
+                RGBColor[0.648987, 0.648987, 0.648987, 1.]], StripOnInput -> 
+               False]}, AspectRatio -> 1, Axes -> False, Background -> None, 
+             Frame -> None, FrameTicks -> None, ImageSize -> {Automatic, 
+               Dynamic[
+               3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TemplateBox[{"\"The Odyssey - Greek\"", "\" \"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/The-Odyssey---Greek"}, "HyperlinkURL"]}, "RowDefault"], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"DataResource\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"The Odyssey, by Homer\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Categories: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{",", "\",\"", "\"Text & Literature\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"ContentTypes: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{",", "\",\"", "\"Text\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{
+                    ",", "\",\"", "\"Text\"", "\"Homer\"", "\"Ulysses\"", 
+                    "\"Odysseus\"", "\"Ancient\"", "\"Greek\"", "\"Illiad\"", 
+                    "\"Troy\"", "\"Epic\"", "\"Poem\""}, "RowWithSeparators"],
+                    Short], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Documentation: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "\"https://resources.wolframcloud.com/DataRepository/\
+resources/The-Odyssey---Greek\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/The-Odyssey---Greek"}, "HyperlinkURL"], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Data Location: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  DynamicModuleBox[{
+                   ResourceSystemClient`Private`typesetstorage$$ = 
+                    ResourceSystemClient`Private`typesetstorageLocation, 
+                    ResourceSystemClient`Private`info$$}, 
+                   DynamicBox[
+                    ToBoxes[
+                    ResourceSystemClient`Private`info$$ = 
+                    ResourceSystemClient`Private`resourceInfo[
+                    "f70072ed-f6d7-475b-aa83-97153c4551c7"]; If[
+                    AssociationQ[ResourceSystemClient`Private`info$$], 
+                    ResourceSystemClient`Private`typesetstorage$$[
+                    Lookup[
+                    ResourceSystemClient`Private`info$$, 
+                    "ContentElementLocations", None]], 
+                    Missing["NotAvailable"]], StandardForm]], 
+                   DynamicModuleValues :> {}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"f70072ed-f6d7-475b-aa83-97153c4551c7\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"1.0.0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Size: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "1037.5520000000001`", "\"kB\"", "kilobytes", 
+                    "\"Kilobytes\""}, "Quantity", SyntaxForm -> Mod], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Elements: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{
+                    ",", "\",\"", "\"Author\"", "\"Content\"", 
+                    "\"FormattedText\"", "\"FullTitle\"", "\"Language\"", 
+                    "\"Lines\"", "\"NotebookExpression\"", "\"Title\"", 
+                    "\"Words\""}, "RowWithSeparators"], Short[#, 2]& ], 
+                  "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ResourceObject[
+   Association[
+   "Name" -> "The Odyssey - Greek", "UUID" -> 
+    "f70072ed-f6d7-475b-aa83-97153c4551c7", "ResourceType" -> "DataResource", 
+    "Version" -> "1.0.0", "Description" -> "The Odyssey, by Homer", 
+    "RepositoryLocation" -> 
+    URL["https://www.wolframcloud.com/objects/resourcesystem/api/1.0"], 
+    "ContentSize" -> Quantity[1037.5520000000001`, "Kilobytes"], 
+    "ContentElements" -> {
+     "Author", "Content", "FormattedText", "FullTitle", "Language", "Lines", 
+      "NotebookExpression", "Title", "Words"}]],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.7313491776383247`*^9, 3.731349228095064*^9},
+ CellLabel->
+  "Out[118]=",ExpressionUUID->"af9334cd-c763-4a4e-89b9-c52732f1b86f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Get", "[", "res", "]"}]], "Input",
+ CellChangeTimes->{{3.7313492363382874`*^9, 3.7313492385114098`*^9}},
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"f6903878-1faf-4969-9092-7affe9edd2bf"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         TemplateBox[{"556115"},
+          "OutputSizeLimit`Skeleton"],
+         Short[#, 10]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{61., {2., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLText",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{54., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{54., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 119, 19061437000182435983, 10/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{61., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{61., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 119, 19061437000182435983, 10 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{46., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{46., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 119, 19061437000182435983, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{83., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{83., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    BaseStyle->"OutputSizeLimit",
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  If[19061437000182435983 === $SessionID, 
+   Out[119], Message[
+     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
+   Null]]], "Output",
+ CellChangeTimes->{3.731349241601429*^9},
+ CellLabel->
+  "Out[119]=",ExpressionUUID->"07624122-1c6a-4e12-94f9-13062f9b0878"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"words", "=", 
+   RowBox[{"ResourceData", "[", 
+    RowBox[{"res", ",", "\"\<Words\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.731349269865464*^9, 3.731349283654557*^9}},
+ CellLabel->
+  "In[120]:=",ExpressionUUID->"99a2a317-f001-4f01-ae27-bdc78e859560"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"Sort", "[", "words", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7313492901607656`*^9, 3.731349306821734*^9}},
+ CellLabel->
+  "In[121]:=",ExpressionUUID->"e2186ff0-cfd4-441f-aa7b-37e9b130e2de"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"\[Kappa]\[Alpha]\:1f76\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.26769624072754705`],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.32710280373831774`],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-0.5, 39.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\:1f72\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.11001215372364946`],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {-3.5, -34.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]\:1f72\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.15820795440258162`],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {32.5, -38.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"\[CapitalTau]\[Eta]\[Lambda]\:03ad\[Mu]\[Alpha]\[Chi]\
+\[Omicron]\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04871966807761619],
+     FontColor->RGBColor[
+      0.6670481226429111, 0.3638052617916352, 0.6198796933927223]], {-0.5, -57.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Alpha]\:1f50\[Tau]\:1f70\[Rho]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07962784459997485],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {39.5, 33.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f00\[Nu]\[Delta]\[Rho]\:1ff6\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04788148023972172],
+     FontColor->RGBColor[
+      0.6102054708420535, 0.39696347534213544`, 0.7619863228948663]], {-51.5, 18.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f48\[Delta]\[Upsilon]\[Sigma]\[Sigma]\[CurlyEpsilon]\
+\:03cd\[FinalSigma]\[CenterDot]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04672897196261682],
+     FontColor->RGBColor[
+      0.9107287510704583, 0.33890687339431275`, 0.20182187767614543`]], {-53.5, -29.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Gamma]\:1f70\[Rho]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08119944679602698],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {-55.5, 0.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f63\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0917815682494447],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {-41.5, 37.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.14259670592179707`],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {54.5, 10.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"\:1f00\[Lambda]\[Lambda]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08339968987049998],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {62.5, -11.5}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\[Omicron]\[Iota]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0802564854783957],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {-40.5, -41.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10246846318259921`],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {-28.5, 55.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[Rho]\[Omicron]\[Sigma]\:03ad\[CurlyPhi]\[Eta]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04693851892209044],
+     FontColor->RGBColor[
+      0.2198892179497479, 0.6590886256402017, 0.6788670615396974]], {50.5, 48.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Alpha]\:1f50\[Tau]\:1f78\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04934830895603704],
+     FontColor->RGBColor[
+      0.5750747800184488, 0.4174563783225715, 0.8498130499538777]], {-4.5, -71.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Pi]\[CurlyEpsilon]\:1f76\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07019823142366204],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {66.5, -29.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\:03ac\[Lambda]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0534344746657726],
+     FontColor->RGBColor[
+      0.3103557220216354, 0.5867154223826917, 0.7874268664259625]], {44.5, 61.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f44\[CurlyPhi]\[Rho]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04830057415866896],
+     FontColor->RGBColor[
+      0.8510135028964549, 0.47400900193096995`, 0.018912152606809424`]], {-10.5, 76.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Kappa]\[Alpha]\[Tau]\:1f70\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06454046351787436],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {51.5, -57.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]\:03ad\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.09481999916181215],
+     FontColor->RGBColor[1, 0.75, 0]], {-70.5, 33.5}, Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"\[Pi]\:03ac\[Nu]\[Tau]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04945308243577386],
+     FontColor->RGBColor[
+      0.845266573755366, 0.437100139366951, 0.03816643438841502]], {-66.5, -16.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[Omicron]\[Lambda]\[Lambda]\:1f70\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05071036419261556],
+     FontColor->RGBColor[0.7175796237092107, 0.7261199581899123, 0.]], {-51.5, -61.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f04\[Rho]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06485478395708477],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {-56.5, 53.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[Rho]\:1f78\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05091991115208918],
+     FontColor->RGBColor[
+      0.6319174318193065, 0.38429816477207124`, 0.7077064204517338]], {30.5, -72.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f14\[Pi]\[CurlyEpsilon]\[Iota]\[Tau]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.053748795104983024`],
+     FontColor->RGBColor[
+      0.8342400905885153, 0.4628267270590103, 0.0038160815296638794`]], {26.5, 77.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:1f78\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07753237500523866],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {-70.5, -44.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Pi]\:1f76\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07763714848497548],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {82.5, 4.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[Alpha]\[Rho]\:1f70\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04830057415866896],
+     FontColor->RGBColor[0.15725938678540247`, 0.715, 0.5857607804549424]], {-38.5, -72.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\:03ad\[Gamma]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.048824441557353],
+     FontColor->RGBColor[
+      0.8335801463353031, 0.3487839707329394, 0.3481997561078282]], {80.5, 26.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\:03ac\[Nu]\[Tau]\[CurlyEpsilon]\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047462386320774486`],
+     FontColor->RGBColor[
+      0.9603267270590103, 0.5591336352950514, 0.10711783694067224`]], {-0.5, -84.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Gamma]\:1f7c\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.059406563010770706`],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {-52.5, 67.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\[Iota]\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06936004358576757],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {-83.5, 5.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f31\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10320187754075687`],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {79.5, -43.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]\:1f74\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07627509324839696],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {-38.5, 82.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Gamma]\:03ac\[Rho]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05919701605129709],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {60.5, -73.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[CurlyEpsilon]\[Rho]\:1f76\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05165332551024684],
+     FontColor->RGBColor[
+      0.19193353076984873`, 0.681453175384121, 0.6453202369238185]], {-33.5, -86.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Pi]\[CurlyEpsilon]\[Rho]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05353924814550941],
+     FontColor->RGBColor[0.8493197142977551, 0.7407577460330839, 0.]], {30.5, -85.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f00\[Lambda]\[Lambda]\:1f70\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.052701060307614934`],
+     FontColor->RGBColor[
+      0.8745421494417032, 0.39318677583744527`, 0.11135537360425793`]], {-6.5, 89.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f14\[Nu]\[Theta]\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.054901303382087915`],
+     FontColor->RGBColor[0.428777913273419, 0.5052332520359486, 0.85]], {30.5, 87.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Nu]\:1f76\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07019823142366204],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {73.5, 59.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f61\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06171157956498051],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {58.5, 78.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f04\[Rho]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06317840828129584],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {-84.5, 47.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\[Omicron]\[Iota]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08193286115418465],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {80.5, -57.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f50\[Delta]\:1f72\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04840534763840576],
+     FontColor->RGBColor[
+      0.9840111653093676, 0.677555826546838, 0.04316985366470745]], {-63.5, 80.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f50\[Delta]\:03ad\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05552994426050877],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {-70.5, -74.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f20\[Delta]\:1f72\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.055739491219982396`],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {-82.5, -59.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\[Iota]\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06359750220024307],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {83.5, 39.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\:03ad\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04871966807761619],
+     FontColor->RGBColor[
+      0.922066817647527, 0.5213778784316846, 0.08286013588277422]], {-78.5, 63.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f50\[Delta]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05563471774024558],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {-61.5, -87.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Nu]\:1fe6\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06024475084866518],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {82.5, 74.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Alpha]\:1f56\[Tau]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047148065881564054`],
+     FontColor->RGBColor[0.529922539669161, 0.44454647619850335`, 0.85]], {69.5, 88.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Gamma]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06695025355182097],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {81.5, -70.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06946481706550438],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {-85.5, 83.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:1f74\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.052910607267088544`],
+     FontColor->RGBColor[0.47929071933511125`, 0.715, 0.1759027208462221]], {72.5, -87.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[CurlyEpsilon]\:1f30\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05385356858471983],
+     FontColor->RGBColor[0.7513196300394465, 0.358, 0.48066210763162087`]], {-86.5, -84.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]\:1fd6\[Omicron]\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047462386320774486`],
+     FontColor->RGBColor[
+      0.3383114092015346, 0.5643508726387724, 0.8209736910418415]], {-87.5, 17.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f50\[Kappa]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.054691756422614306`],
+     FontColor->RGBColor[
+      0.9784200278733908, 0.649600139366954, 0.058265924741844846`]], {91.5, -12.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f45\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05217719290893089],
+     FontColor->RGBColor[
+      0.9930578157165594, 0.7227890785827968, 0.01874389756528967]], {-95.5, -10.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.053224927706298976`],
+     FontColor->RGBColor[
+      0.9492067688690977, 0.5394711792460651, 0.10728609198218791`]], {59.5, -40.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Nu]\:1fc6\[Alpha]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04683374544235363],
+     FontColor->RGBColor[0.6672593867853922, 0.7205288207539324, 0.]], {-0.5, -95.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Gamma]\:03ce\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04683374544235363],
+     FontColor->RGBColor[
+      0.6453361616656581, 0.37647057236169945`, 0.6741595958358548]], {-94.5, -26.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:03cc\[Tau]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04725283936130086],
+     FontColor->RGBColor[
+      0.8633598745697435, 0.40996018814538476`, 0.08339968642435877]], {-93.5, 28.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f24\[Delta]\[Eta]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04725283936130086],
+     FontColor->RGBColor[0.4177882075393331, 0.715, 0.25417864494993975`]], {22.5, -98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:03af\[FinalSigma]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04871966807761619],
+     FontColor->RGBColor[0.5788038738141875, 0.715, 0.049249615145579635`]], {96.5, -26.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f45\[Tau]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05385356858471983],
+     FontColor->RGBColor[0.2187618985811806, 0.715, 0.5074848563512248]], {-32.5, 97.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Kappa]\[Alpha]\:03af\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06139725912577008],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {-94.5, -39.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Pi]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05563471774024558],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {-29.5, -99.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Kappa]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.059930430409454755`],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {93.5, 49.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f50\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06307363480155903],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {51.5, -91.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Kappa]\[CurlyEpsilon]\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05594903817945601],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {16.5, 100.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]\:03ae\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.051548552030510036`],
+     FontColor->RGBColor[
+      0.8781534541180211, 0.4921023027453475, 0.04333810870621905]], {-52.5, 95.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f54\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.060035203889191556`],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {46.5, 97.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08811449645865638],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], {-97.5, 53.5}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"\:1f14\[Tau]\[Iota]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04840534763840576],
+     FontColor->RGBColor[0.7658565873730018, 0.358, 0.4582975578876895]], {-69.5, 93.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f02\[Nu]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.048824441557353],
+     FontColor->RGBColor[
+      0.26512246998569167`, 0.6229020240114467, 0.73314696398283]], {-94.5, 69.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Alpha]\:1f56\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04693851892209044],
+     FontColor->RGBColor[
+      0.8064401951137368, 0.3542119609772526, 0.39343300814377197`]], {97.5, -43.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Delta]\:03ae\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04924353547630023],
+     FontColor->RGBColor[0.9307395679624266, 0.7498043964402695, 0.]], {98.5, -74.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f10\[Xi]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.049767402874984275`],
+     FontColor->RGBColor[0.7277983389807635, 0.358, 0.5168487092603637]], {89.5, 86.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\[Omicron]\:1fe6\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04693851892209044],
+     FontColor->RGBColor[
+      0.8949268664259606, 0.5032845776173072, 0.05843417978336459]], {-50.5, -98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f41\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0663216126734001],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {100.5, 4.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Sigma]\:1f7a\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05008172331419471],
+     FontColor->RGBColor[
+      0.969373377466199, 0.6043668873309952, 0.08269188084126262]], {78.5, 98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Mu]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05521562382129835],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {-4.5, 33.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Gamma]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05605381165919283],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {-97.5, -52.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f26\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06799798834918905],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {101.5, 24.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:1ff7\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04704329240182725],
+     FontColor->RGBColor[
+      0.9986489531525362, 0.7507447657626809, 0.0036478264881522893`]], {-66.5, -99.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Omicron]\:1f35\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.048614894597879384`],
+     FontColor->RGBColor[0.4567336004533182, 0.4884598397280091, 0.85]], {97.5, 58.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1fe5'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05050081723314194],
+     FontColor->RGBColor[
+      0.9046334610863751, 0.334573307782725, 0.22977756485604156`]], {100.5, -56.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Sigma]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05312015422656217],
+     FontColor->RGBColor[0.6897400905885174, 0.358, 0.5753998606330502]], {-97.5, -69.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[CurlyEpsilon]\:1f34\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05050081723314194],
+     FontColor->RGBColor[0.38354466123747527`, 0.5323732032575149, 0.85]], {89.5, -88.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Kappa]\[CurlyEpsilon]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.049557855915510665`],
+     FontColor->RGBColor[0.31827505306025683`, 0.715, 0.3808317506505822]], {-82.5, -98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:1f70\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04735761284103767],
+     FontColor->RGBColor[0.7042770479220728, 0.358, 0.5530353108891188]], {-83.5, 98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f21\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0523867398684045],
+     FontColor->RGBColor[0.5019668524892619, 0.46131988850644284`, 0.85]], {100.5, 74.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f22\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0534344746657726],
+     FontColor->RGBColor[
+      0.8607200975568693, 0.34335598048862614`, 0.30296650407188447`]], {-101.5, -82.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f25\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047776706759984904`],
+     FontColor->RGBColor[0.7989994773739094, 0.735166608597101, 0.]], {-99.5, 84.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Kappa]'\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.048614894597879384`],
+     FontColor->RGBColor[
+      0.8926354502560807, 0.366046824615879, 0.15658862564020168`]], {93.5, 98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\[Iota]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.058149281253929],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {81.5, -99.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[CurlyEpsilon]\:1f30\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05353924814550941],
+     FontColor->RGBColor[
+      0.596786740995709, 0.404791067752503, 0.7955331475107271]], {99.5, -90.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[Tau]\:03af\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047567159800511294`],
+     FontColor->RGBColor[
+      0.8774935098648088, 0.34000129802703827`, 0.2750108168919853]], {-101.5, 1.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\:1f45\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05207241942919408],
+     FontColor->RGBColor[
+      0.7896667828057927, 0.3575666434388414, 0.4213886953236787]], {101.5, 86.5},
+     Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-107., 107.}, {-107., 106.}}]], "Output",
+ CellChangeTimes->{3.731349313163168*^9},
+ CellLabel->
+  "Out[121]=",ExpressionUUID->"54d85eaa-2193-4508-ac79-ca5d7a415c8b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"res", "=", 
+  RowBox[{"ResourceObject", "[", "\"\<Faust\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.7313493644342003`*^9, 3.731349382027595*^9}, {
+  3.731349544859152*^9, 3.731349561265995*^9}},
+ CellLabel->
+  "In[130]:=",ExpressionUUID->"0be1853f-860d-4b2b-b639-4ef8e8ed4165"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ResourceObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = True, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"], 
+               ImageSizeCache -> {12., {0., 12.}}], Appearance -> None, 
+              ButtonFunction :> (Typeset`open$$ = True), Evaluator -> 
+              Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.011111111111111112`], {
+               FaceForm[{
+                 RGBColor[0.648987, 0.648987, 0.648987], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{3.789, 
+                7.266}, {86.20700000000001, 7.266}, {86.20700000000001, 
+                3.266}, {3.789, 3.266}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{14.129, 
+                54.07}, {19.878999999999998`, 54.07}, {19.878999999999998`, 
+                15.57}, {14.129, 15.57}}}]}, {
+               FaceForm[{
+                 RGBColor[0.274612, 0.618881, 0.810913], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{24.129, 
+                41.82}, {29.879, 41.82}, {29.879, 15.57}, {24.129, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                33.160000000000004`, 54.07}, {38.910000000000004`, 54.07}, {
+                38.910000000000004`, 15.57}, {33.160000000000004`, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{42.191, 
+                31.781}, {47.941, 31.781}, {47.941, 15.569999999999997`}, {
+                42.191, 15.569999999999997`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                51.223000000000006`, 46.875}, {56.973000000000006`, 46.875}, {
+                56.973000000000006`, 15.57}, {51.223000000000006`, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{60.254, 
+                37.707}, {66.00399999999999, 37.707}, {66.00399999999999, 
+                15.569999999999997`}, {60.254, 15.569999999999997`}}}]}, {
+               FaceForm[{
+                 RGBColor[0.648987, 0.648987, 0.648987], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                70.12899999999999, 54.07}, {75.87899999999999, 54.07}, {
+                75.87899999999999, 15.57}, {70.12899999999999, 15.57}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                9.879000000000001, 60.547}, {24.129, 60.547}, {24.129, 
+                56.547}, {9.879000000000001, 56.547}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9.871, 
+                13.097999999999999`}, {80.121, 13.097999999999999`}, {80.121, 
+                9.097999999999999}, {9.871, 9.097999999999999}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                65.87899999999999, 60.547}, {80.12899999999999, 60.547}, {
+                80.12899999999999, 56.547}, {65.87899999999999, 56.547}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}}}, {{{11.469000000000001`, 
+                 66.54700000000001}, {45., 82.418}, {78.398, 
+                 66.54700000000001}}, {{45., 86.73400000000001}, {
+                 2.2230000000000003`, 66.54700000000001}, {
+                 2.2230000000000003`, 62.547}, {87.777, 62.547}, {87.777, 
+                 66.54700000000001}}}]}}, AspectRatio -> 1, Axes -> False, 
+             Background -> None, Frame -> None, FrameTicks -> None, 
+             ImageSize -> {Automatic, 
+               Dynamic[
+               3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TemplateBox[{"\"Faust\"", "\" \"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/Faust"}, "HyperlinkURL"]}, "RowDefault"], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"DataResource\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"Faust: Der Trag\[ODoubleDot]die erster Teil, by Johann \
+Wolfgang von Goethe\"", "SummaryItem"]}]}}, AutoDelete -> False, 
+             BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {
+              "Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}}, AutoDelete -> 
+          False, BaselinePosition -> {1, 1}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], True -> 
+        GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"], 
+               ImageSizeCache -> {12., {0., 12.}}], Appearance -> None, 
+              ButtonFunction :> (Typeset`open$$ = False), Evaluator -> 
+              Automatic, Method -> "Preemptive"], 
+             Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[{
+              Thickness[0.011111111111111112`], {
+               FaceForm[{
+                 RGBColor[0.648987, 0.648987, 0.648987], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{3.789, 
+                7.266}, {86.20700000000001, 7.266}, {86.20700000000001, 
+                3.266}, {3.789, 3.266}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{14.129, 
+                54.07}, {19.878999999999998`, 54.07}, {19.878999999999998`, 
+                15.57}, {14.129, 15.57}}}]}, {
+               FaceForm[{
+                 RGBColor[0.274612, 0.618881, 0.810913], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{24.129, 
+                41.82}, {29.879, 41.82}, {29.879, 15.57}, {24.129, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                33.160000000000004`, 54.07}, {38.910000000000004`, 54.07}, {
+                38.910000000000004`, 15.57}, {33.160000000000004`, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{42.191, 
+                31.781}, {47.941, 31.781}, {47.941, 15.569999999999997`}, {
+                42.191, 15.569999999999997`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                51.223000000000006`, 46.875}, {56.973000000000006`, 46.875}, {
+                56.973000000000006`, 15.57}, {51.223000000000006`, 15.57}}}], 
+               
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{60.254, 
+                37.707}, {66.00399999999999, 37.707}, {66.00399999999999, 
+                15.569999999999997`}, {60.254, 15.569999999999997`}}}]}, {
+               FaceForm[{
+                 RGBColor[0.648987, 0.648987, 0.648987], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                70.12899999999999, 54.07}, {75.87899999999999, 54.07}, {
+                75.87899999999999, 15.57}, {70.12899999999999, 15.57}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                9.879000000000001, 60.547}, {24.129, 60.547}, {24.129, 
+                56.547}, {9.879000000000001, 56.547}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{9.871, 
+                13.097999999999999`}, {80.121, 13.097999999999999`}, {80.121, 
+                9.097999999999999}, {9.871, 9.097999999999999}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                65.87899999999999, 60.547}, {80.12899999999999, 60.547}, {
+                80.12899999999999, 56.547}, {65.87899999999999, 56.547}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 
+                 0}, {0, 1, 0}, {0, 1, 0}}}, {{{11.469000000000001`, 
+                 66.54700000000001}, {45., 82.418}, {78.398, 
+                 66.54700000000001}}, {{45., 86.73400000000001}, {
+                 2.2230000000000003`, 66.54700000000001}, {
+                 2.2230000000000003`, 62.547}, {87.777, 62.547}, {87.777, 
+                 66.54700000000001}}}]}}, AspectRatio -> 1, Axes -> False, 
+             Background -> None, Frame -> None, FrameTicks -> None, 
+             ImageSize -> {Automatic, 
+               Dynamic[
+               3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification]), ImageSizeCache -> {45., {0., 9.}}]}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TemplateBox[{"\"Faust\"", "\" \"", 
+                    
+                    TemplateBox[{
+                    "\"\[RightGuillemet]\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/Faust"}, "HyperlinkURL"]}, "RowDefault"], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Type: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"DataResource\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"Faust: Der Trag\[ODoubleDot]die erster Teil, by Johann \
+Wolfgang von Goethe\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Categories: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{",", "\",\"", "\"Text & Literature\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"ContentTypes: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{",", "\",\"", "\"Text\""}, 
+                    "RowWithSeparators"], Short], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Keywords: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{
+                    ",", "\",\"", "\"Text\"", "\"German\"", "\"Goethe\"", 
+                    "\"Play\"", "\"Tragedy\""}, "RowWithSeparators"], Short], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Documentation: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "\"https://resources.wolframcloud.com/DataRepository/\
+resources/Faust\"", 
+                    "https://resources.wolframcloud.com/DataRepository/\
+resources/Faust"}, "HyperlinkURL"], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Data Location: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  DynamicModuleBox[{
+                   ResourceSystemClient`Private`typesetstorage$$ = 
+                    ResourceSystemClient`Private`typesetstorageLocation, 
+                    ResourceSystemClient`Private`info$$ = 
+                    Association[
+                    "RepositoryLocation" -> 
+                    URL["https://www.wolframcloud.com/objects/resourcesystem/\
+api/1.0"], "MyAccount" -> False, "Name" -> "Faust", "UUID" -> 
+                    "b0044966-7f9f-4d40-a9d3-45be0b6080d3", 
+                    "ContentElementLocations" -> 
+                    Association[
+                    "Content" -> 
+                    LocalObject[
+                    "file:///home/jmartin/.Wolfram/Objects/Resources/b00/\
+b0044966-7f9f-4d40-a9d3-45be0b6080d3/download/Content/2992664539ec521f"]], 
+                    "ResourceType" -> "DataResource", "ContentSize" -> 
+                    Quantity[190.528, "Kilobytes"], 
+                    "ContentElements" -> {
+                    "Author", "Content", "FormattedText", "FullTitle", 
+                    "Language", "Lines", "NotebookExpression", "Title", 
+                    "Words"}, "Version" -> "1.0.0", "Description" -> 
+                    "Faust: Der Trag\[ODoubleDot]die erster Teil, by Johann \
+Wolfgang von Goethe", "ContentTypes" -> {"Text"}, 
+                    "Categories" -> {"Text & Literature"}, 
+                    "Keywords" -> {
+                    "Text", "German", "Goethe", "Play", "Tragedy"}, 
+                    "Attributes" -> {
+                    "LocalCopyable", "CloudCopyable", "LocalCopyable", 
+                    "CloudCopyable"}, "LatestUpdate" -> 
+                    DateObject[{2015, 12, 15}, "Day", "Gregorian", -5.], 
+                    "DefaultReturnFormat" -> "wdf", 
+                    "ContentElementAccessType" -> "Text", 
+                    "ContributorInformation" -> 
+                    Association[
+                    "PublisherID" -> "Wolfram", "DisplayName" -> 
+                    "Wolfram Research"], "DefaultContentElement" -> "Content",
+                     "DOI" -> "https://doi.org/10.24097/wolfram.35163.data", 
+                    "Format" -> Association["Content" -> "MX"], 
+                    "InformationElements" -> 
+                    Association[
+                    "StringLength" -> 187616, "WordCount" -> 30619], 
+                    "ReleaseDate" -> 
+                    DateObject[{2015, 12, 15}, "Day", "Gregorian", -5.], 
+                    "ShortName" -> "Faust", "SourceMetadata" -> 
+                    Association[
+                    "Creator" -> "Johann Wolfgang von Goethe", "Date" -> 
+                    DateObject[{1808}, "Year", "Gregorian", -5.], "Language" -> 
+                    "German", "Title" -> 
+                    "Faust: Der Trag\[ODoubleDot]die erster teil"], 
+                    "ResourceLocations" -> {
+                    LocalObject[
+                    "file:///home/jmartin/.Wolfram/Objects/Resources/b00/\
+b0044966-7f9f-4d40-a9d3-45be0b6080d3"]}, "DownloadedVersion" -> "1.0.0"]}, 
+                   DynamicBox[
+                    ToBoxes[
+                    ResourceSystemClient`Private`info$$ = 
+                    ResourceSystemClient`Private`resourceInfo[
+                    "b0044966-7f9f-4d40-a9d3-45be0b6080d3"]; If[
+                    AssociationQ[ResourceSystemClient`Private`info$$], 
+                    ResourceSystemClient`Private`typesetstorage$$[
+                    Lookup[
+                    ResourceSystemClient`Private`info$$, 
+                    "ContentElementLocations", None]], 
+                    Missing["NotAvailable"]], StandardForm], 
+                    ImageSizeCache -> {26., {0., 8.}}], 
+                   DynamicModuleValues :> {}], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"UUID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"b0044966-7f9f-4d40-a9d3-45be0b6080d3\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"1.0.0\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Size: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "190.528`", "\"kB\"", "kilobytes", "\"Kilobytes\""}, 
+                   "Quantity"], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Elements: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                   
+                   TemplateBox[{
+                    ",", "\",\"", "\"Author\"", "\"Content\"", 
+                    "\"FormattedText\"", "\"FullTitle\"", "\"Language\"", 
+                    "\"Lines\"", "\"NotebookExpression\"", "\"Title\"", 
+                    "\"Words\""}, "RowWithSeparators"], Short[#, 2]& ], 
+                  "SummaryItem"]}]}}, AutoDelete -> False, 
+             BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+             GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {
+              "Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}}, AutoDelete -> 
+          False, BaselinePosition -> {1, 1}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ResourceObject[
+   Association[
+   "Name" -> "Faust", "UUID" -> "b0044966-7f9f-4d40-a9d3-45be0b6080d3", 
+    "ResourceType" -> "DataResource", "Version" -> "1.0.0", "Description" -> 
+    "Faust: Der Trag\[ODoubleDot]die erster Teil, by Johann Wolfgang von \
+Goethe", "RepositoryLocation" -> 
+    URL["https://www.wolframcloud.com/objects/resourcesystem/api/1.0"], 
+    "ContentSize" -> Quantity[190.528, "Kilobytes"], 
+    "ContentElements" -> {
+     "Author", "Content", "FormattedText", "FullTitle", "Language", "Lines", 
+      "NotebookExpression", "Title", "Words"}], ResourceSystemBase -> 
+   "https://www.wolframcloud.com/objects/resourcesystem/api/1.0"],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{
+  3.731349384262834*^9, {3.731349553020876*^9, 3.731349562998665*^9}},
+ CellLabel->
+  "Out[130]=",ExpressionUUID->"6b0f9cec-8bc1-4454-9a37-49a67db68d88"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"words", "=", 
+   RowBox[{"ResourceData", "[", 
+    RowBox[{"res", ",", "\"\<Words\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.731349390717795*^9, 3.731349392795004*^9}, {
+  3.731349427006546*^9, 3.7313494407539997`*^9}},
+ CellLabel->
+  "In[125]:=",ExpressionUUID->"9623bedb-f50a-4915-93dc-f467b5ab31bc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "words", "]"}]], "Input",
+ CellChangeTimes->{{3.7313494536324472`*^9, 3.7313494570716877`*^9}},
+ CellLabel->
+  "In[126]:=",ExpressionUUID->"d53d0e2e-942a-4a0e-b5b2-a2de0a1b4c6d"],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{"\<\"Zueignung.\"\>", ",", "\<\"Ihr\"\>", ",", "\<\"naht\"\>", 
+    ",", "\<\"euch\"\>", ",", "\<\"wieder,\"\>", ",", "\<\"schwankende\"\>", 
+    ",", "\<\"Gestalten,\"\>", ",", "\<\"Die\"\>", 
+    ",", "\<\"fr\[UDoubleDot]h\"\>", ",", 
+    RowBox[{"\[LeftSkeleton]", "30603", "\[RightSkeleton]"}], 
+    ",", "\<\"mit\"\>", ",", "\<\"Faust.)\"\>", ",", "\<\"STIMME\"\>", 
+    ",", "\<\"(von\"\>", ",", "\<\"innen,\"\>", ",", "\<\"verhallend):\"\>", 
+    ",", "\<\"Heinrich!\"\>", ",", "\<\"Heinrich!\"\>"}], "}"}],
+  Short]], "Output",
+ CellChangeTimes->{3.73134948179388*^9},
+ CellLabel->
+  "Out[126]//Short=",ExpressionUUID->"6efaf3e3-eef4-469d-9ffc-1c87c4884825"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"Sort", "[", "words", "]"}], "]"}], "]"}]], "Input",
+ CellLabel->
+  "In[127]:=",ExpressionUUID->"8dac47e7-02c6-44ee-a180-a44205952415"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"und\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.24734982332155478`],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"MEPHISTOPHELES:\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0810595091507803],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {0., 39.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"die\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.186705598761446],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0., -48.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"der\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.16985998082808246`],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {0., 69.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"ich\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.186705598761446],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-72., -40.}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"nicht\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.11836052028894244`],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {75., -35.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"FAUST:\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07672777882505825],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {0., -82.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"das\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.12148899219085284`],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {-86., 0.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Mephistopheles\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03870481263260911],
+     FontColor->RGBColor[0.5788038738141875, 0.715, 0.049249615145579635`]], {72., 58.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ein\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.1205263854518035],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {81., 0.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"MARGARETE:\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04448045306690518],
+     FontColor->RGBColor[
+      0.8342400905885153, 0.4628267270590103, 0.0038160815296638794`]], {38., 87.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"den\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.09381404844318414],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {-59., 62.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"mich\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07841234061839461],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {62., -62.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"sich\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08659449790031405],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {-63., -73.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"du\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.09622056529080751],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {-50., 84.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"ist\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10921575626797367`],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {57., -86.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"mit\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08948231811746209],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {14., -104.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"zu\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.11041901469178536`],
+     FontColor->RGBColor[1, 0.75, 0]], {-24., -100.}, Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"dem\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07408061029267256],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {-10., 102.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"sie\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0916481832803231],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {31., 105.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wie\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07841234061839461],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {-60., -96.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"doch\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06493584627170378],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {-55., 106.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"mir\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08130016083554265],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {-71., 19.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ihr\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08731645295460105],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {-84., 79.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"es\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.09718317202985685],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], {49., -107.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"wenn\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05940085752217003],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {59., 71.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"von\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06878627322790115],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {100., 21.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"schon\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047127621599290875`],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {71., 100.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"MARTHE:\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03581699241546107],
+     FontColor->RGBColor[
+      0.9986489531525362, 0.7507447657626809, 0.0036478264881522893`]], {-68., -113.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"meinem\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03629829578498574],
+     FontColor->RGBColor[
+      0.8774935098648088, 0.34000129802703827`, 0.2750108168919853]], {97., -77.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"euch\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056272385620259664`],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {101., 71.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"auf\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06686105974980246],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {105., -57.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"gleich\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03870481263260911],
+     FontColor->RGBColor[
+      0.6670481226429111, 0.3638052617916352, 0.6198796933927223]], {-101., 58.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"mein\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05097804855548826],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {92., -91.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"einen\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04351784632785583],
+     FontColor->RGBColor[0.6897400905885174, 0.358, 0.5753998606330502]], {67., 113.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"nur\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06589845301075312],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {-103., -67.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"nach\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.046646318229766205`],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {102., 84.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"noch\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047849576653577884`],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {-97., -91.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"auch\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04977479013167658],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {83., -106.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wieder\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.036057644100223406`],
+     FontColor->RGBColor[0.4177882075393331, 0.715, 0.25417864494993975`]], {-98., 96.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"dich\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05242195866406228],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {-94., 109.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"immer\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037020250839272746`],
+     FontColor->RGBColor[
+      0.6102054708420535, 0.39696347534213544`, 0.7619863228948663]], {103., 109.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"da\[SZ]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05314391371834929],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {-1., 115.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"meine\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03822350926308443],
+     FontColor->RGBColor[
+      0.8926354502560807, 0.366046824615879, 0.15658862564020168`]], {-20., 21.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"einem\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03966741937165845],
+     FontColor->RGBColor[
+      0.845266573755366, 0.437100139366951, 0.03816643438841502]], {-107., 22.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"selbst\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03750155420879742],
+     FontColor->RGBColor[
+      0.8510135028964549, 0.47400900193096995`, 0.018912152606809424`]], {0., -122.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"eine\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04351784632785583],
+     FontColor->RGBColor[
+      0.9492067688690977, 0.5394711792460651, 0.10728609198218791`]], {-31., 121.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wird\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.046646318229766205`],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {28., 123.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"man\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05290326203358695],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {-34., -123.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"nichts\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03966741937165845],
+     FontColor->RGBColor[
+      0.5750747800184488, 0.4174563783225715, 0.8498130499538777]], {36., -125.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"sind\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.045443059805954526`],
+     FontColor->RGBColor[
+      0.9784200278733908, 0.649600139366954, 0.058265924741844846`]], {-112., 70.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"er\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07456191366219722],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {116., 0.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"durch\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04183328453451948],
+     FontColor->RGBColor[
+      0.9930578157165594, 0.7227890785827968, 0.01874389756528967]], {-63., 121.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Teufel\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03581699241546107],
+     FontColor->RGBColor[
+      0.8064401951137368, 0.3542119609772526, 0.39343300814377197`]], {60., 125.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"des\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05001544181643892],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {-118., -20.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"dieser\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0353356890459364],
+     FontColor->RGBColor[0.6672593867853922, 0.7205288207539324, 0.]], {-112., -80.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"dann\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04038937442594546],
+     FontColor->RGBColor[0.38354466123747527`, 0.5323732032575149, 0.85]], {29., 23.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"denn\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04087067779547013],
+     FontColor->RGBColor[
+      0.6319174318193065, 0.38429816477207124`, 0.7077064204517338]], {-65., -124.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ganz\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03557634073069873],
+     FontColor->RGBColor[
+      0.8949268664259606, 0.5032845776173072, 0.05843417978336459]], {-118., -31.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"kann\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03942676768689611],
+     FontColor->RGBColor[0.9307395679624266, 0.7498043964402695, 0.]], {-113., 82.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"im\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05795694741359602],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {121., -20.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"hier\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.045443059805954526`],
+     FontColor->RGBColor[0.428777913273419, 0.5052332520359486, 0.85]], {-117., -46.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wir\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05530977888121032],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {67., -124.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"gar\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03894546431737144],
+     FontColor->RGBColor[
+      0.26512246998569167`, 0.6229020240114467, 0.73314696398283]], {67., 20.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"als\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05266261034882462],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {-105., -106.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"alles\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.036538947469748076`],
+     FontColor->RGBColor[0.7989994773739094, 0.735166608597101, 0.]], {90., 122.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Welt\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03774220589355976],
+     FontColor->RGBColor[
+      0.9840111653093676, 0.677555826546838, 0.04316985366470745]], {93., -120.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wohl\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04087067779547013],
+     FontColor->RGBColor[0.7175796237092107, 0.7261199581899123, 0.]], {115., -102.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"\[UDoubleDot]ber\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03629829578498574],
+     FontColor->RGBColor[
+      0.3383114092015346, 0.5643508726387724, 0.8209736910418415]], {-94., 122.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"uns\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04953413844691425],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {-94., -123.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Geist\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03581699241546107],
+     FontColor->RGBColor[0.529922539669161, 0.44454647619850335`, 0.85]], {-1., 128.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"mu\[SZ]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04014872274118312],
+     FontColor->RGBColor[
+      0.969373377466199, 0.6043668873309952, 0.08269188084126262]], {127., -32.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"hat\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04375849801261817],
+     FontColor->RGBColor[
+      0.8607200975568693, 0.34335598048862614`, 0.30296650407188447`]], {-127., 0.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"aus\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04448045306690518],
+     FontColor->RGBColor[0.2187618985811806, 0.715, 0.5074848563512248]], {-126., 34.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"nun\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.044961756436429856`],
+     FontColor->RGBColor[0.7513196300394465, 0.358, 0.48066210763162087`]], {129., 12.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"zum\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04255523958880649],
+     FontColor->RGBColor[0.5019668524892619, 0.46131988850644284`, 0.85]], {128., 32.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ihn\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0439991496973805],
+     FontColor->RGBColor[0.8493197142977551, 0.7407577460330839, 0.]], {125., 42.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"da\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05362521708787396],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {-127., 45.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"war\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.041111329480232474`],
+     FontColor->RGBColor[
+      0.8781534541180211, 0.4921023027453475, 0.04333810870621905]], {0., -132.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wer\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.041351981164994805`],
+     FontColor->RGBColor[
+      0.19193353076984873`, 0.681453175384121, 0.6453202369238185]], {-24., -134.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"hab\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03750155420879742],
+     FontColor->RGBColor[0.7658565873730018, 0.358, 0.4582975578876895]], {-27., 133.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"vor\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04375849801261817],
+     FontColor->RGBColor[
+      0.3103557220216354, 0.5867154223826917, 0.7874268664259625]], {130., -43.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"f\[UDoubleDot]r\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04423980138214284],
+     FontColor->RGBColor[
+      0.596786740995709, 0.404791067752503, 0.7955331475107271]], {129., 55.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"vom\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0379828575783221],
+     FontColor->RGBColor[0.4567336004533182, 0.4884598397280091, 0.85]], {25., 135.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ihm\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03918611600213378],
+     FontColor->RGBColor[
+      0.8335801463353031, 0.3487839707329394, 0.3481997561078282]], {-50., 132.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"um\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04303654295833116],
+     FontColor->RGBColor[0.47929071933511125`, 0.715, 0.1759027208462221]], {-129., -58.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"dir\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.046405666545003874`],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {128., -62.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"erst\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0353356890459364],
+     FontColor->RGBColor[
+      0.9107287510704583, 0.33890687339431275`, 0.20182187767614543`]], {48., 136.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"kein\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03557634073069873],
+     FontColor->RGBColor[
+      0.6453361616656581, 0.37647057236169945`, 0.6741595958358548]], {-48., -136.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"alle\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04038937442594546],
+     FontColor->RGBColor[
+      0.9046334610863751, 0.334573307782725, 0.22977756485604156`]], {-72., 133.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"viel\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03629829578498574],
+     FontColor->RGBColor[
+      0.9603267270590103, 0.5591336352950514, 0.10711783694067224`]], {131., 67.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"soll\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04183328453451948],
+     FontColor->RGBColor[
+      0.7896667828057927, 0.3575666434388414, 0.4213886953236787]], {121., -87.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"la\[SZ]\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03750155420879742],
+     FontColor->RGBColor[0.15725938678540247`, 0.715, 0.5857607804549424]], 
+    {130., 78.}, Center, Automatic], InsetBox[
+    StyleBox["\<\"bist\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03581699241546107],
+     FontColor->RGBColor[
+      0.8633598745697435, 0.40996018814538476`, 0.08339968642435877]], {69., 136.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"bei\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03990807105642079],
+     FontColor->RGBColor[0.7277983389807635, 0.358, 0.5168487092603637]], {-70., -136.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"bin\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04255523958880649],
+     FontColor->RGBColor[
+      0.8745421494417032, 0.39318677583744527`, 0.11135537360425793`]], {-124., -91.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ins\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.036057644100223406`],
+     FontColor->RGBColor[0.7042770479220728, 0.358, 0.5530353108891188]], {132., -8.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wo\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03894546431737144],
+     FontColor->RGBColor[
+      0.922066817647527, 0.5213778784316846, 0.08286013588277422]], {21., -136.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"zur\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03581699241546107],
+     FontColor->RGBColor[
+      0.2198892179497479, 0.6590886256402017, 0.6788670615396974]], {-75., -20.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"o\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03990807105642079],
+     FontColor->RGBColor[0.31827505306025683`, 0.715, 0.3808317506505822]], {0., -1.},
+     Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-140.5, 142.5}, {-142.5, 142.5}}]], "Output",
+ CellChangeTimes->{3.7313495153631773`*^9},
+ CellLabel->
+  "Out[127]=",ExpressionUUID->"53472e74-56e3-4389-8185-1f7ae31f3d52"]
+}, Open  ]]
+},
+WindowSize->{1687, 1383},
+WindowMargins->{{194, Automatic}, {0, Automatic}},
+FrontEndVersion->"11.3 for Linux x86 (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 293, 7, 31, "Input",ExpressionUUID->"414093a1-0ccf-4313-9791-7e1277406eb2"],
+Cell[876, 31, 17252, 344, 112, "Output",ExpressionUUID->"af9334cd-c763-4a4e-89b9-c52732f1b86f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18165, 380, 211, 4, 31, "Input",ExpressionUUID->"f6903878-1faf-4969-9092-7affe9edd2bf"],
+Cell[18379, 386, 7632, 203, 93, "Output",ExpressionUUID->"07624122-1c6a-4e12-94f9-13062f9b0878"]
+}, Open  ]],
+Cell[26026, 592, 299, 7, 31, "Input",ExpressionUUID->"99a2a317-f001-4f01-ae27-bdc78e859560"],
+Cell[CellGroupData[{
+Cell[26350, 603, 291, 6, 31, "Input",ExpressionUUID->"e2186ff0-cfd4-441f-aa7b-37e9b130e2de"],
+Cell[26644, 611, 25422, 565, 375, "Output",ExpressionUUID->"54d85eaa-2193-4508-ac79-ca5d7a415c8b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52103, 1181, 304, 6, 31, "Input",ExpressionUUID->"0be1853f-860d-4b2b-b639-4ef8e8ed4165"],
+Cell[52410, 1189, 20050, 398, 211, "Output",ExpressionUUID->"6b0f9cec-8bc1-4454-9a37-49a67db68d88"]
+}, Open  ]],
+Cell[72475, 1590, 350, 8, 31, "Input",ExpressionUUID->"9623bedb-f50a-4915-93dc-f467b5ab31bc"],
+Cell[CellGroupData[{
+Cell[72850, 1602, 215, 4, 31, "Input",ExpressionUUID->"d53d0e2e-942a-4a0e-b5b2-a2de0a1b4c6d"],
+Cell[73068, 1608, 716, 14, 50, "Output",ExpressionUUID->"6efaf3e3-eef4-469d-9ffc-1c87c4884825"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73821, 1627, 223, 5, 31, "Input",ExpressionUUID->"8dac47e7-02c6-44ee-a180-a44205952415"],
+Cell[74047, 1634, 23505, 563, 380, "Output",ExpressionUUID->"53472e74-56e3-4389-8185-1f7ae31f3d52"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
