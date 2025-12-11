@@ -67,7 +67,7 @@ def generate_convex_polygon_image(n):
         draw.polygon(hull, fill=255)
 
     # blur edges with a Gaussian filter
-    img = img.filter(ImageFilter.GaussianBlur(radius=0))
+    img = img.filter(ImageFilter.GaussianBlur(radius=1))
     return np.array(img)
 
 
